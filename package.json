@@ -1,0 +1,21 @@
+{
+  "name": "modern-backend7",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "drizzle-kit": "^0.23.0"
+  },
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/jwt": "^1.0.2",
+    "drizzle-orm": "^0.32.0",
+    "elysia": "^1.0.27",
+    "postgres": "^3.4.4"
+  }
+}

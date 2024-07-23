@@ -1,0 +1,1 @@
+ALTER TABLE "comments_table" RENAME COLUMN "text" TO "comment";
